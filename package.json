@@ -1,8 +1,27 @@
 {
+  "name": "mi-proyecto-react",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
+    "@dataconnect/generated": "file:src/dataconnect-generated",
+    "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
     "firebase": "^12.6.0",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.10",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^7.9.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.10"
   }
 }
